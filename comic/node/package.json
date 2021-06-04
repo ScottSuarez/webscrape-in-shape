@@ -1,0 +1,27 @@
+{
+  "name": "comic-dl",
+  "version": "1.0.0",
+  "description": "download utility for comcis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottSuarez/webscrape-in-shape.git"
+  },
+  "keywords": [
+    "webscrape",
+    "comcis"
+  ],
+  "author": "scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScottSuarez/webscrape-in-shape/issues"
+  },
+  "homepage": "https://github.com/ScottSuarez/webscrape-in-shape#readme",
+  "dependencies": {
+    "jsdom": "^16.6.0",
+    "node-fetch": "^2.6.1"
+  }
+}
