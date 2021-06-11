@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/ScottSuarez/webscrape-in-shape#readme",
   "dependencies": {
+    "imgur-legacy": "npm:imgur@^1.0.2",
     "jsdom": "^16.6.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "tslib": "^2.2.0"
   }
 }
