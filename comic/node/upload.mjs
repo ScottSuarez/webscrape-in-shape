@@ -1,7 +1,7 @@
-import imgurLegacy from "imgur-legacy"
 import path from "path"
 import fs from "fs"
 import fetch from 'node-fetch'
+import FormData from 'form-data'
 
 const comic = "sandman"
 const author = "Neil Gaiman"
@@ -16,26 +16,80 @@ if (authToken == '') {
     
 }
 else {
+
     let manifestFile = getManifestFile()
     await uploadAllChapters(manifestFile)
 }
 
-
-async function uploadImage(src, albumId) {
-    let resp = await fetch('https://api.imgur.com/3/upload', { method: 'POST', 
+async function createAlbum(){
+    let resp = await fetch('https://api.imgur.com/3/album/', {
+        method: 'POST',
         headers: {
             'Authorization': 'Bearer ' + authToken, 
             'Content-Type': 'application/json'
         }, 
-        body: {
-            image: (fs.readFileSync(src)).toString('base64'),
-            album: albumId,
-            type: 'base64'
-        }}).catch(err => {
+        
+    })
+    if(resp.status != 200){
+        console.log(await resp.text())
+        throw "unsuccessful album creation"
+    }
+    resp = JSON.parse(await resp.text())
+    return resp.data
+}
+
+async function sleep(seconds){
+    return new Promise(resolve => {
+        setTimeout(resolve, seconds * 1000)
+    })
+}
+
+async function uploadImageToImgur(formData){
+    return await fetch('https://api.imgur.com/3/upload.json', { method: 'POST', 
+        headers: {
+            'Authorization': 'Bearer ' + authToken, 
+        }, 
+        body: formData
+        }).catch(err => {
             console.log(err)
+            throw err
         })
+}
+
+async function uploadImage(src, albumId) {
+    var formData = new FormData()
+    formData.append('type', 'file')
+    formData.append('album', albumId)
+    formData.append('image', fs.createReadStream(src))
+    var resp = await uploadImageToImgur(formData)
+    
+    if (resp.status == 429) {
+        console.log('got status 429.. waiting an hour and retrying upload request')
+        console.log(await resp.text())
+        await sleep(61 * 60) // sleep and hour and retry request
+        resp = await uploadImageToImgur(formData)
+    }
+
+    if(resp.status != 200){
+        console.log(await resp.text())
+        throw "unsuccessful image upload"
+    }
     postRateLimit = parseInt(resp.headers.get('x-post-rate-limit-remaining'))
-    return resp
+    resp = JSON.parse(await resp.text())
+    return resp.data
+}
+
+async function uploadImageWithRetry(src, albumId, numberOfTries){
+    var resp = false
+    for( var j=0; j<numberOfTries && !resp; j++) {
+        resp = await uploadImage(src, albumId).catch(() => false)
+        if (!resp) { 
+            await sleep(5)  // if request fails wait 5 seconds and try again
+        }
+    }
+    if (!resp) {
+        throw "unable to upload full chapter"
+    }
 }
 
 async function uploadChapter(src) {
@@ -47,11 +101,11 @@ async function uploadChapter(src) {
     console.log(src)
     var chapterNumber = getChapterNumber(src)
     console.log("uploading chapter " + chapterNumber)
-    var album = await imgurLegacy.createAlbum()
+    var album = await createAlbum()
     console.log('created album ' + album.id)
     for(var i=0; i<pages.length; i++){
         console.log(' ^ page ' + i )
-        await uploadImage(pages[i], album.id)
+        await uploadImageWithRetry(pages[i], album.id, 3)
     }
 
     var chapterEntry = {}
