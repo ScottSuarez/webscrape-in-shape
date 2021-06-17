@@ -3,16 +3,25 @@ import fetch from "node-fetch"
 import path from "path"
 import fs from "fs"
 
-const DIR = path.join(process.env.HOME, "Documents", "/comics/y-the-last-man/")
+const DIR = path.join(process.env.HOME, "Documents", "/comics/invincible/")
 
 async function downloadFile(url, dest) {
-  if (fs.existsSync(dest)){ return }
   let resp
   try{
     resp = await fetch(url)
   } catch {
     throw console.error("unable to download - " + dest);
   }
+  if (resp.headers.get("content-type")?.indexOf("jpeg") != -1 ) {
+    dest += ".jpg"
+  } else if (resp.headers.get("content-type")?.indexOf("png") != -1 ){
+    dest += ".png"
+  } else {
+    throw "unsupported image type :("
+  }
+  if (!fs.existsSync(dest)){ 
+    await fs.promises.mkdir(dest, {recursive:true })
+   }
   const stream = fs.createWriteStream(dest)
   resp.body.pipe(stream)
 }
@@ -23,13 +32,13 @@ async function downloadChapter(url, dest) {
     var {window} = await new JSDOM(text);
     var images = window.document.querySelectorAll(".chapter-main>.chapter-container>img")
     images = [... images] // querySelectorAll are host objects and don't implement all array method
-    var imagesDLCalls = images.map(async(image, pageNumber) => {
-        var imageUrl = image.getAttribute("src")
-        var pageNumberReadable = String(pageNumber).padStart(2,"0")
-        await fs.promises.mkdir(dest, {recursive:true })
-        await downloadFile(imageUrl, path.join(dest,"page-" + pageNumberReadable + "." + imageUrl.split(".").pop()))
-    });
-    await Promise.all(imagesDLCalls)
+    for (var i=0; i<images.length; i++){
+      let image = images[i]
+      let pageNumber = i;
+      let imageUrl = image.getAttribute("src")
+      let pageNumberReadable = String(pageNumber).padStart(2,"0")
+      await downloadFile(imageUrl, path.join(dest,"page-" + pageNumberReadable))
+    }
 }
 
 async function downloadAllChapters(url) {
@@ -54,4 +63,4 @@ async function downloadAllChapters(url) {
     }
 }
 
-await downloadAllChapters("https://www.comicextra.com/y-the-last-man-2002/chapter-1")
+await downloadAllChapters("https://www.comicextra.com/invincible/chapter-0/full")
