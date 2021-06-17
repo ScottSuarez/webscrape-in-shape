@@ -1,7 +1,7 @@
 {
   "title": "sandman",
   "description": "sandman",
-  "cover": null,
+  "cover": "https://i.imgur.com/2kui8u5.jpg",
   "author": "Neil Gaiman",
   "artist": "Neil Gaiman",
   "chapters": {
@@ -356,6 +356,134 @@
         "rawrrrr": "/proxy/api/imgur/chapter/kPOI5SB/"
       },
       "last_updated": "1623812802"
+    },
+    "45": {
+      "title": "sandman chapter 45",
+      "volume": "volume 45",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/5PbsM3h/"
+      },
+      "last_updated": "1623817095"
+    },
+    "46": {
+      "title": "sandman chapter 46",
+      "volume": "volume 46",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/3gxbJ8x/"
+      },
+      "last_updated": "1623817126"
+    },
+    "47": {
+      "title": "sandman chapter 47",
+      "volume": "volume 47",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/IheBIH8/"
+      },
+      "last_updated": "1623821417"
+    },
+    "48": {
+      "title": "sandman chapter 48",
+      "volume": "volume 48",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/8Z7Br6L/"
+      },
+      "last_updated": "1623821442"
+    },
+    "49": {
+      "title": "sandman chapter 49",
+      "volume": "volume 49",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/WBdxCkE/"
+      },
+      "last_updated": "1623825733"
+    },
+    "50": {
+      "title": "sandman chapter 50",
+      "volume": "volume 50",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/xh60Et1/"
+      },
+      "last_updated": "1623825768"
+    },
+    "51": {
+      "title": "sandman chapter 51",
+      "volume": "volume 51",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/wOGHOHL/"
+      },
+      "last_updated": "1623830061"
+    },
+    "52": {
+      "title": "sandman chapter 52",
+      "volume": "volume 52",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/HQ2gPeN/"
+      },
+      "last_updated": "1623830091"
+    },
+    "53": {
+      "title": "sandman chapter 53",
+      "volume": "volume 53",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/pe44hoo/"
+      },
+      "last_updated": "1623834385"
+    },
+    "54": {
+      "title": "sandman chapter 54",
+      "volume": "volume 54",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/tkcDMwv/"
+      },
+      "last_updated": "1623834415"
+    },
+    "55": {
+      "title": "sandman chapter 55",
+      "volume": "volume 55",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/IHEh5sd/"
+      },
+      "last_updated": "1623838717"
+    },
+    "56": {
+      "title": "sandman chapter 56",
+      "volume": "volume 56",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/yW4yf52/"
+      },
+      "last_updated": "1623838741"
+    },
+    "57": {
+      "title": "sandman chapter 57",
+      "volume": "volume 57",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/EEa6Ig6/"
+      },
+      "last_updated": "1623843028"
+    },
+    "58": {
+      "title": "sandman chapter 58",
+      "volume": "volume 58",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/cGhxKsC/"
+      },
+      "last_updated": "1623843050"
+    },
+    "59": {
+      "title": "sandman chapter 59",
+      "volume": "volume 59",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/O5DJvh6/"
+      },
+      "last_updated": "1623896114"
+    },
+    "60": {
+      "title": "sandman chapter 60",
+      "volume": "volume 60",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/bTuUTPu/"
+      },
+      "last_updated": "1623896135"
     }
   }
 }
