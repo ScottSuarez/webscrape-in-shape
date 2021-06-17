@@ -1,7 +1,7 @@
 {
   "title": "sandman",
   "description": "sandman",
-  "cover": "https://i.imgur.com/2kui8u5.jpg",
+  "cover": null,
   "author": "Neil Gaiman",
   "artist": "Neil Gaiman",
   "chapters": {
@@ -484,6 +484,22 @@
         "rawrrrr": "/proxy/api/imgur/chapter/bTuUTPu/"
       },
       "last_updated": "1623896135"
+    },
+    "61": {
+      "title": "sandman chapter 61",
+      "volume": "volume 61",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/15tsSsu/"
+      },
+      "last_updated": "1623900423"
+    },
+    "62": {
+      "title": "sandman chapter 62",
+      "volume": "volume 62",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/orCH3Br/"
+      },
+      "last_updated": "1623900444"
     }
   }
 }
