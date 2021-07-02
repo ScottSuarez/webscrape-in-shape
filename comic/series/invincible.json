@@ -1,0 +1,601 @@
+{
+  "title": "invincible",
+  "description": "invincible",
+  "cover": null,
+  "author": "Robert Kirkman",
+  "artist": "Robert Kirkman",
+  "chapters": {
+    "0": {
+      "title": "invincible chapter 0",
+      "volume": "volume 0",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/ZDcX8ZM/"
+      },
+      "last_updated": "1624598521"
+    },
+    "1": {
+      "title": "invincible chapter 1",
+      "volume": "volume 1",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/brqK5mv/"
+      },
+      "last_updated": "1624598545"
+    },
+    "2": {
+      "title": "invincible chapter 2",
+      "volume": "volume 2",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/hVa0ifp/"
+      },
+      "last_updated": "1624602834"
+    },
+    "3": {
+      "title": "invincible chapter 3",
+      "volume": "volume 3",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/pa0Flbf/"
+      },
+      "last_updated": "1624602856"
+    },
+    "4": {
+      "title": "invincible chapter 4",
+      "volume": "volume 4",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/91aVMTj/"
+      },
+      "last_updated": "1624607151"
+    },
+    "5": {
+      "title": "invincible chapter 5",
+      "volume": "volume 5",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/gH1ioG6/"
+      },
+      "last_updated": "1624607172"
+    },
+    "6": {
+      "title": "invincible chapter 6",
+      "volume": "volume 6",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/iVHYfAx/"
+      },
+      "last_updated": "1624611460"
+    },
+    "7": {
+      "title": "invincible chapter 7",
+      "volume": "volume 7",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/Ydnwhnm/"
+      },
+      "last_updated": "1624615753"
+    },
+    "8": {
+      "title": "invincible chapter 8",
+      "volume": "volume 8",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/uM7puoy/"
+      },
+      "last_updated": "1624615780"
+    },
+    "9": {
+      "title": "invincible chapter 9",
+      "volume": "volume 9",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/jgGmbfC/"
+      },
+      "last_updated": "1624620068"
+    },
+    "10": {
+      "title": "invincible chapter 10",
+      "volume": "volume 10",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/xrU5zie/"
+      },
+      "last_updated": "1624620089"
+    },
+    "11": {
+      "title": "invincible chapter 11",
+      "volume": "volume 11",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/1mR3BLN/"
+      },
+      "last_updated": "1624650268"
+    },
+    "12": {
+      "title": "invincible chapter 12",
+      "volume": "volume 12",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/c0Dk5Ky/"
+      },
+      "last_updated": "1625031118"
+    },
+    "13": {
+      "title": "invincible chapter 13",
+      "volume": "volume 13",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/iJ0RxbY/"
+      },
+      "last_updated": "1625031139"
+    },
+    "14": {
+      "title": "invincible chapter 14",
+      "volume": "volume 14",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/09rysTy/"
+      },
+      "last_updated": "1625035432"
+    },
+    "15": {
+      "title": "invincible chapter 15",
+      "volume": "volume 15",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/wGWhHhP/"
+      },
+      "last_updated": "1625039725"
+    },
+    "16": {
+      "title": "invincible chapter 16",
+      "volume": "volume 16",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/TZLoaw9/"
+      },
+      "last_updated": "1625039750"
+    },
+    "17": {
+      "title": "invincible chapter 17",
+      "volume": "volume 17",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/lygwXCi/"
+      },
+      "last_updated": "1625044044"
+    },
+    "18": {
+      "title": "invincible chapter 18",
+      "volume": "volume 18",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/V9QlhM8/"
+      },
+      "last_updated": "1625048340"
+    },
+    "19": {
+      "title": "invincible chapter 19",
+      "volume": "volume 19",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/cSwTdna/"
+      },
+      "last_updated": "1625048364"
+    },
+    "20": {
+      "title": "invincible chapter 20",
+      "volume": "volume 20",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/zOKC21C/"
+      },
+      "last_updated": "1625052654"
+    },
+    "21": {
+      "title": "invincible chapter 21",
+      "volume": "volume 21",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/7cZdcz6/"
+      },
+      "last_updated": "1625052686"
+    },
+    "22": {
+      "title": "invincible chapter 22",
+      "volume": "volume 22",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/l6nvduj/"
+      },
+      "last_updated": "1625056976"
+    },
+    "23": {
+      "title": "invincible chapter 23",
+      "volume": "volume 23",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/lk0IsXZ/"
+      },
+      "last_updated": "1625057003"
+    },
+    "24": {
+      "title": "invincible chapter 24",
+      "volume": "volume 24",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/QM9zbq5/"
+      },
+      "last_updated": "1625061295"
+    },
+    "25": {
+      "title": "invincible chapter 25",
+      "volume": "volume 25",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/1iaZ3s8/"
+      },
+      "last_updated": "1625065612"
+    },
+    "26": {
+      "title": "invincible chapter 26",
+      "volume": "volume 26",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/fLOSsMx/"
+      },
+      "last_updated": "1625065634"
+    },
+    "27": {
+      "title": "invincible chapter 27",
+      "volume": "volume 27",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/XuGlQD6/"
+      },
+      "last_updated": "1625069918"
+    },
+    "28": {
+      "title": "invincible chapter 28",
+      "volume": "volume 28",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/TI2ALmX/"
+      },
+      "last_updated": "1625069947"
+    },
+    "29": {
+      "title": "invincible chapter 29",
+      "volume": "volume 29",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/LVBHrtn/"
+      },
+      "last_updated": "1625100461"
+    },
+    "30": {
+      "title": "invincible chapter 30",
+      "volume": "volume 30",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/CMtNT7r/"
+      },
+      "last_updated": "1625100486"
+    },
+    "31": {
+      "title": "invincible chapter 31",
+      "volume": "volume 31",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/MoGtEg1/"
+      },
+      "last_updated": "1625100544"
+    },
+    "32": {
+      "title": "invincible chapter 32",
+      "volume": "volume 32",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/2v3OVno/"
+      },
+      "last_updated": "1625104832"
+    },
+    "33": {
+      "title": "invincible chapter 33",
+      "volume": "volume 33",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/v6phOLL/"
+      },
+      "last_updated": "1625104853"
+    },
+    "34": {
+      "title": "invincible chapter 34",
+      "volume": "volume 34",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/PnAz0mn/"
+      },
+      "last_updated": "1625109145"
+    },
+    "35": {
+      "title": "invincible chapter 35",
+      "volume": "volume 35",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/YJcmxt8/"
+      },
+      "last_updated": "1625109169"
+    },
+    "36": {
+      "title": "invincible chapter 36",
+      "volume": "volume 36",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/Pku7siE/"
+      },
+      "last_updated": "1625113458"
+    },
+    "37": {
+      "title": "invincible chapter 37",
+      "volume": "volume 37",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/y8twmCi/"
+      },
+      "last_updated": "1625113477"
+    },
+    "38": {
+      "title": "invincible chapter 38",
+      "volume": "volume 38",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/swkvjdD/"
+      },
+      "last_updated": "1625113499"
+    },
+    "39": {
+      "title": "invincible chapter 39",
+      "volume": "volume 39",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/6V9STF5/"
+      },
+      "last_updated": "1625117784"
+    },
+    "40": {
+      "title": "invincible chapter 40",
+      "volume": "volume 40",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/qu4BhJY/"
+      },
+      "last_updated": "1625117805"
+    },
+    "41": {
+      "title": "invincible chapter 41",
+      "volume": "volume 41",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/7q3NgyC/"
+      },
+      "last_updated": "1625122094"
+    },
+    "42": {
+      "title": "invincible chapter 42",
+      "volume": "volume 42",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/f6fNDYl/"
+      },
+      "last_updated": "1625122117"
+    },
+    "43": {
+      "title": "invincible chapter 43",
+      "volume": "volume 43",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/FBox1WR/"
+      },
+      "last_updated": "1625126408"
+    },
+    "44": {
+      "title": "invincible chapter 44",
+      "volume": "volume 44",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/exBERFI/"
+      },
+      "last_updated": "1625126428"
+    },
+    "45": {
+      "title": "invincible chapter 45",
+      "volume": "volume 45",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/n44OjeU/"
+      },
+      "last_updated": "1625130714"
+    },
+    "46": {
+      "title": "invincible chapter 46",
+      "volume": "volume 46",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/dGihIVQ/"
+      },
+      "last_updated": "1625130736"
+    },
+    "47": {
+      "title": "invincible chapter 47",
+      "volume": "volume 47",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/cVtdTBY/"
+      },
+      "last_updated": "1625135024"
+    },
+    "48": {
+      "title": "invincible chapter 48",
+      "volume": "volume 48",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/v5qrl7t/"
+      },
+      "last_updated": "1625135047"
+    },
+    "49": {
+      "title": "invincible chapter 49",
+      "volume": "volume 49",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/Om9NY5p/"
+      },
+      "last_updated": "1625135067"
+    },
+    "50": {
+      "title": "invincible chapter 50",
+      "volume": "volume 50",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/OWOpZhH/"
+      },
+      "last_updated": "1625139371"
+    },
+    "51": {
+      "title": "invincible chapter 51",
+      "volume": "volume 51",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/t5xguAD/"
+      },
+      "last_updated": "1625143657"
+    },
+    "52": {
+      "title": "invincible chapter 52",
+      "volume": "volume 52",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/34snOJ2/"
+      },
+      "last_updated": "1625143680"
+    },
+    "53": {
+      "title": "invincible chapter 53",
+      "volume": "volume 53",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/W2CsxDZ/"
+      },
+      "last_updated": "1625147970"
+    },
+    "54": {
+      "title": "invincible chapter 54",
+      "volume": "volume 54",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/5qHCHIn/"
+      },
+      "last_updated": "1625147992"
+    },
+    "55": {
+      "title": "invincible chapter 55",
+      "volume": "volume 55",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/RJOnUCx/"
+      },
+      "last_updated": "1625152280"
+    },
+    "56": {
+      "title": "invincible chapter 56",
+      "volume": "volume 56",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/amdAKAU/"
+      },
+      "last_updated": "1625152308"
+    },
+    "57": {
+      "title": "invincible chapter 57",
+      "volume": "volume 57",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/bZPLTWj/"
+      },
+      "last_updated": "1625156603"
+    },
+    "58": {
+      "title": "invincible chapter 58",
+      "volume": "volume 58",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/gy9CaN6/"
+      },
+      "last_updated": "1625156633"
+    },
+    "59": {
+      "title": "invincible chapter 59",
+      "volume": "volume 59",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/Tq93pz4/"
+      },
+      "last_updated": "1625197342"
+    },
+    "60": {
+      "title": "invincible chapter 60",
+      "volume": "volume 60",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/V5nTSh7/"
+      },
+      "last_updated": "1625197370"
+    },
+    "61": {
+      "title": "invincible chapter 61",
+      "volume": "volume 61",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/WDgJvUZ/"
+      },
+      "last_updated": "1625201660"
+    },
+    "62": {
+      "title": "invincible chapter 62",
+      "volume": "volume 62",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/BNndw4a/"
+      },
+      "last_updated": "1625201677"
+    },
+    "100": {
+      "title": "invincible chapter 100",
+      "volume": "volume 100",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/yLWOeep/"
+      },
+      "last_updated": "1624624387"
+    },
+    "101": {
+      "title": "invincible chapter 101",
+      "volume": "volume 101",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/bj53k8V/"
+      },
+      "last_updated": "1624624414"
+    },
+    "102": {
+      "title": "invincible chapter 102",
+      "volume": "volume 102",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/R0HK04A/"
+      },
+      "last_updated": "1624628708"
+    },
+    "103": {
+      "title": "invincible chapter 103",
+      "volume": "volume 103",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/ERrd7uF/"
+      },
+      "last_updated": "1624633000"
+    },
+    "104": {
+      "title": "invincible chapter 104",
+      "volume": "volume 104",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/23KvmWM/"
+      },
+      "last_updated": "1624633029"
+    },
+    "105": {
+      "title": "invincible chapter 105",
+      "volume": "volume 105",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/lrzwnit/"
+      },
+      "last_updated": "1624637323"
+    },
+    "106": {
+      "title": "invincible chapter 106",
+      "volume": "volume 106",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/T0uDxc6/"
+      },
+      "last_updated": "1624637364"
+    },
+    "107": {
+      "title": "invincible chapter 107",
+      "volume": "volume 107",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/hWixqWE/"
+      },
+      "last_updated": "1624641651"
+    },
+    "108": {
+      "title": "invincible chapter 108",
+      "volume": "volume 108",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/Q0Mm8ip/"
+      },
+      "last_updated": "1624645951"
+    },
+    "109": {
+      "title": "invincible chapter 109",
+      "volume": "volume 109",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/TZWzpl7/"
+      },
+      "last_updated": "1624645982"
+    },
+    "110": {
+      "title": "invincible chapter 110",
+      "volume": "volume 110",
+      "groups": {
+        "rawrrrr": "/proxy/api/imgur/chapter/IKIvJpx/"
+      },
+      "last_updated": "1624650291"
+    }
+  }
+}
