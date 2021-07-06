@@ -3,7 +3,7 @@ import fetch from "node-fetch"
 import path from "path"
 import fs from "fs"
 
-const DIR = path.join(process.env.HOME, "Documents", "/comics/invincible/")
+const DIR = path.join(process.env.HOME, "Documents", "/comics/y-the-last-man/")
 
 async function downloadFile(url, dest) {
   let resp
@@ -12,9 +12,10 @@ async function downloadFile(url, dest) {
   } catch {
     throw console.error("unable to download - " + dest);
   }
-  if (resp.headers.get("content-type")?.indexOf("jpeg") != -1 ) {
+  var contentType = resp.headers.get("content-type")
+  if (contentType.indexOf("jpeg") != -1 ) {
     dest += ".jpg"
-  } else if (resp.headers.get("content-type")?.indexOf("png") != -1 ){
+  } else if (contentType.get("content-type").indexOf("png") != -1 ){
     dest += ".png"
   } else {
     throw "unsupported image type :("
@@ -47,7 +48,7 @@ async function downloadAllChapters(url) {
     var {window} = await new JSDOM(text);
     var chapters = window.document.querySelectorAll("#asset_1>.full-select >option")
     chapters = [...chapters]
-    var regexp = /chapter-(\d+)/i
+    var regexp = /chapter-(\d*19)/i
     console.log(chapters.length)
     chapters = chapters.filter(chapter => {
         var chapterUrl = chapter.getAttribute("value")
@@ -63,4 +64,4 @@ async function downloadAllChapters(url) {
     }
 }
 
-await downloadAllChapters("https://www.comicextra.com/invincible/chapter-0/full")
+await downloadAllChapters("https://www.comicextra.com/y-the-last-man-2002/chapter-60/full")

@@ -3,8 +3,8 @@ import fs from "fs"
 import fetch from 'node-fetch'
 import FormData from 'form-data'
 
-const comic = "sandman"
-const author = "Neil Gaiman"
+const comic = "invincible"
+const author = "Robert Kirkman"
 const SRC = path.join(process.env.HOME, "Documents", "/comics/", comic)
 const DEST = path.join("./series/", comic + ".json")
 const chapterRegex = /chapter-(\d+)$/i
